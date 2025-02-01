@@ -1,8 +1,29 @@
-# React + Vite
+# Basic Landing Page v1.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Landing Page in React & Tailwind CSS
 
-Currently, two official plugins are available:
+A responsive and modular landing page built using React and styled with Tailwind CSS.  
+The page is fully componentized, allowing for easy customization and scalability.
+It can be used to generate both leads and product sales.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Components
+
+- Header
+- Product/Service Hero Section
+- Features
+- Statistics
+- Testimonials
+- Footer
+
+## Features  
+- Fully componentized structure for maintainability  
+- Styled with Tailwind CSS for a modern and responsive design  
+- Optimized for fast load times and a seamless user experience  
+- Easy deployment and customization  
+
+## Installation  
+```bash
+git clone https://github.com/your-repo/landing-page.git
+cd landing-page
+npm install
+npm start
