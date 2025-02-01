@@ -3,9 +3,9 @@ import Button from "./Button";
 import { Menu, X } from "lucide-react"; // Íconos de menú
 
 const menuButtonClass =
-  "text-lg font-medium text-white hover:text-orange-300 cursor-pointer";
+  "text-lg font-medium text-white hover:text-orange-300 cursor-pointer hover:text-orange-300 active:text-yellow-300";
 const authButtonClass =
-  "bg-black hover:bg-yellow-600 text-white hover:text-black font-bold py-3 px-3 rounded cursor-pointer";
+  "bg-black hover:bg-yellow-600 text-white hover:text-black font-bold py-3 px-3 rounded cursor-pointer ";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ const Header = () => {
 
         {/* Hamburguer Button */}
         <button
-          className="md:hidden text-white text-3xl"
+          className="md:hidden text-white text-3xl z-50"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X /> : <Menu />}
