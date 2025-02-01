@@ -1,5 +1,8 @@
 import React from "react";
 import defaultImage from "../../assets/default-img.png";
+import testimonial1 from "../../assets/testimonial-01.jpg";
+import testimonial2 from "../../assets/testimonial-02.jpg";
+import testimonial3 from "../../assets/testimonial-03.jpg";
 
 const testimonialBox = (name, position, content, img) => {
   return (
@@ -30,7 +33,7 @@ const Testimonials = () => {
           "Customer N°1",
           "Position 1",
           "I love the product/service that you provide. Definitely solves our pain points. It's awesome!",
-          defaultImage
+          testimonial1
         )}
 
         {/* Testimonial 2 */}
@@ -38,7 +41,7 @@ const Testimonials = () => {
           "Customer N°2",
           "Position",
           "Your product/service is a game changer. It has helped us a lot. I would recommend it to everyone.",
-          defaultImage
+          testimonial2
         )}
 
         {/* Testimonial 3 */}
@@ -46,7 +49,7 @@ const Testimonials = () => {
           "Customer N°3",
           "Position",
           "Appreciate the willingness to help and prompt responses. Keep up the good work!",
-          defaultImage
+          testimonial3
         )}
 
         {/* Testimonial 4 */}
@@ -54,7 +57,7 @@ const Testimonials = () => {
           "Customer N°4",
           "Position",
           "I wasn't sure at first, but I'm glad I tried it out. It's really great. I'm happy with the results.",
-          defaultImage
+          testimonial1
         )}
       </div>
     </main>

@@ -1,5 +1,8 @@
 import React from "react";
 import defaultImage from "../../assets/default-img.png";
+import image1 from "../../assets/feature-01.png";
+import image2 from "../../assets/feature-02.png";
+import image3 from "../../assets/feature-03.png";
 
 const boxContent = (title, content, img) => {
   return (
@@ -22,19 +25,19 @@ const Features = () => {
           {boxContent(
             "Feature 1",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            defaultImage
+            image1
           )}
 
           {boxContent(
             "Feature 2",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            defaultImage
+            image2
           )}
 
           {boxContent(
             "Feature 3",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            defaultImage
+            image3
           )}
         </div>
       </div>
