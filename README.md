@@ -6,6 +6,9 @@ A responsive and modular landing page built using React and styled with Tailwind
 The page is fully componentized, allowing for easy customization and scalability.
 It can be used to generate both leads and product sales.
 
+Version 1.0: https://basic-landingpage-1.onrender.com
+Version 1.2: https://basic-landingpage.onrender.com/ (with regular images). 
+
 ## Components
 
 - Header
